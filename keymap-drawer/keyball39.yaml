@@ -51,11 +51,11 @@ layers:
   - '~'
   - {t: '''', s: '"'}
   - '"'
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:brightness-7$$
-  - $$mdi:keyboard-esc$$
-  - $$mdi:brightness-5$$
   - F20
+  - $$mdi:brightness-5$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -66,8 +66,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Alt+`, s: Alt+~}
-  - Alt+$$mdi:keyboard-tab$$
+  - Ctl+Sft+C
+  - Ctl+Sft+V
   - _
   - {t: '{', type: held}
   - '}'
@@ -103,9 +103,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Sft+C
-  - Ctl+Sft+V
   - {t: '=', s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
