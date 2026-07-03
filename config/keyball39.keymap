@@ -43,18 +43,18 @@
             label = "MAIN";
             bindings = <
 &kp LG(TAB)  &kp LG(GRAVE)  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP                           &kp GRAVE      &kp BACKSLASH  &kp TILDE       &kp SQT         &kp DOUBLE_QUOTES
-&kp CAPS     &kp C_BRI_DN   &kp ESC     &kp C_BRI_UP       &kp F20                                &kp LEFT       &kp DOWN       &kp UP          &kp RIGHT       &kp PIPE
-&trans       &trans         &trans      &trans             &trans                                 &kp LA(GRAVE)  &kp LA(TAB)    &kp UNDERSCORE  &kp LEFT_BRACE  &kp RIGHT_BRACE
+&trans       &kp C_BRI_DN   &kp F20     &kp C_BRI_UP       &trans                                 &kp LEFT       &kp DOWN       &kp UP          &kp RIGHT       &kp PIPE
+&trans       &trans         &trans      &trans             &trans                                 &kp LC(LS(C))  &kp LC(LS(V))  &kp UNDERSCORE  &kp LEFT_BRACE  &kp RIGHT_BRACE
 &trans       &trans         &trans      &trans             &trans        &trans  &kp PRINTSCREEN  &trans                                                        &mkp MCLK
             >;
         };
 
         NUM {
             bindings = <
-&kp N1  &kp N2  &kp N3         &kp N4         &kp N5                     &trans  &trans     &trans  &trans  &trans
-&kp N6  &kp N7  &kp N8         &kp N9         &kp N0                     &trans  &mkp LCLK  &trans  &trans  &trans
-&trans  &trans  &kp LC(LS(C))  &kp LC(LS(V))  &kp EQUAL                  &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans         &trans         &trans     &trans  &trans  &trans                             &trans
+&kp N1  &kp N2  &kp N3     &kp N4  &kp N5                  &trans  &trans     &trans  &trans  &trans
+&kp N6  &kp N7  &kp N8     &kp N9  &kp N0                  &trans  &mkp LCLK  &trans  &trans  &trans
+&trans  &trans  &kp EQUAL  &trans  &trans                  &trans  &trans     &trans  &trans  &trans
+&trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans                             &trans
             >;
 
             label = "NUM";
