@@ -52,10 +52,10 @@
         RH {
             label = "RH";
             bindings = <
-&kp ESC  &kp C_MUTE  &kp C_VOLUME_UP  &trans          &kp C_BRI_UP                      &trans     &trans     &kp PLUS   &kp PAGE_UP  &kp PAGE_DOWN
-&kp F20  &kp HOME    &kp C_VOL_DN     &kp END         &kp C_BRI_DN                      &mkp LCLK  &mkp LCLK  &kp MINUS  &mkp RCLK    &mkp RCLK
-&trans   &trans      &kp LC(LS(C))    &kp LS(LC(V))   &kp PRINTSCREEN                   &trans     &trans     &trans     &trans       &trans
-&trans   &trans      &trans           &kp LEFT_SHIFT  &sk LEFT_CONTROL  &trans  &trans  &trans                                        &trans
+&kp ESC  &kp C_MUTE  &kp C_VOLUME_UP  &trans          &kp C_BRI_UP                      &trans    &trans     &kp PLUS   &kp PAGE_UP  &kp PAGE_DOWN
+&kp F20  &kp HOME    &kp C_VOL_DN     &kp END         &kp C_BRI_DN                      &kp LEFT  &mkp LCLK  &kp MINUS  &mkp RCLK    &kp RIGHT
+&trans   &trans      &kp LC(LS(C))    &kp LS(LC(V))   &kp PRINTSCREEN                   &trans    &trans     &trans     &trans       &trans
+&trans   &trans      &trans           &kp LEFT_SHIFT  &sk LEFT_CONTROL  &trans  &trans  &trans                                       &trans
             >;
         };
 
@@ -71,10 +71,10 @@
 
         NUM {
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4        &kp N5                          &trans         &trans    &trans  &trans     &trans
-&kp N6  &kp N7  &kp N8  &kp N9        &kp N0                          &trans         &kp LEFT  &trans  &kp RIGHT  &trans
-&trans  &trans  &trans  &trans        &trans                          &trans         &trans    &trans  &trans     &trans
-&trans  &trans  &trans  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans  &trans  &kp RIGHT_ALT                               &trans
+&kp N1  &kp N2  &kp N3  &kp N4        &kp N5                          &trans         &trans            &trans  &trans             &trans
+&kp N6  &kp N7  &kp N8  &kp N9        &kp N0                          &trans         &kp LEFT_BRACKET  &trans  &kp RIGHT_BRACKET  &trans
+&trans  &trans  &trans  &trans        &trans                          &trans         &trans            &trans  &trans             &trans
+&trans  &trans  &trans  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans  &trans  &kp RIGHT_ALT                                               &trans
             >;
 
             label = "NUM";
