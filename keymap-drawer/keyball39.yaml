@@ -43,14 +43,14 @@ layers:
   MAIN:
   - Gui+$$mdi:keyboard-tab$$
   - {t: Gui+`, s: Gui+~}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - {t: '`', s: '~'}
   - {t: \, s: '|'}
   - '~'
   - {t: '''', s: '"'}
-  - '"'
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -77,37 +77,37 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-scroll-wheel$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   RH:
+  - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:brightness-5$$
-  - $$mdi:brightness-7$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - +
   - PgUp
   - PgDn
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F20
   - HOME
+  - $$mdi:volume-low$$
+  - END
+  - $$mdi:brightness-7$$
+  - $$mdi:arrow-left-bold$$
   - {t: '[', s: '{'}
   - {t: '-', s: _}
   - {t: ']', s: '}'}
-  - END
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:volume-off$$
-  - F20
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
