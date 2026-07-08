@@ -96,11 +96,11 @@ layers:
   - $$mdi:volume-low$$
   - END
   - $$mdi:brightness-7$$
-  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:arrow-left-bold$$
   - $$mdi:mouse-left-click-outline$$
   - {t: '-', s: _}
   - $$mdi:mouse-right-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Sft+C
@@ -177,9 +177,9 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-left-bold$$
+  - {t: '[', s: '{'}
   - {type: held}
-  - $$mdi:arrow-right-bold$$
+  - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
