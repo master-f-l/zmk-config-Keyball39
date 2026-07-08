@@ -55,7 +55,7 @@
 &kp ESC  &kp C_MUTE  &kp C_VOLUME_UP  &trans         &kp C_BRI_UP                      &trans  &trans            &kp PLUS   &kp PAGE_UP        &kp PAGE_DOWN
 &kp F20  &kp HOME    &kp C_VOL_DN     &kp END        &kp C_BRI_DN                      &trans  &kp LEFT_BRACKET  &kp MINUS  &kp RIGHT_BRACKET  &trans
 &trans   &trans      &kp LC(LS(C))    &kp LS(LC(V))  &kp PRINTSCREEN                   &trans  &trans            &kp EQUAL  &trans             &trans
-&trans   &trans      &trans           &mkp RCLK      &sk LEFT_CONTROL  &trans  &trans  &trans                                                  &trans
+&trans   &trans      &kp LEFT_SHIFT   &mkp RCLK      &sk LEFT_CONTROL  &trans  &trans  &trans                                                  &trans
             >;
         };
 
