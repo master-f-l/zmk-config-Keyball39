@@ -37,7 +37,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: MAIN}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:backspace$$', h: RIGHT GUI}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: RH}
   - Sft+RIGHT GUI
   MAIN:
