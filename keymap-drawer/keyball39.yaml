@@ -33,10 +33,10 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-caps$$
   - SNIPE
-  - Sft+$$mdi:apple-keyboard-command$$
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-tab$$', h: MAIN}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
-  - $$mdi:mouse-left-click-outline$$
+  - Sft+$$mdi:apple-keyboard-command$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: RH}
   - Sft+RIGHT GUI
