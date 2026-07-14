@@ -29,7 +29,7 @@
 &kp Q           &kp W          &kp E    &kp R        &kp T                                                &kp Y        &kp U        &kp I      &kp O              &kp P
 &mt LEFT_ALT A  &mt LSHIFT S   &lt 3 D  &mt LCTRL F  &kp G                                                &kp H        &mt RCTRL J  &lt 4 K    &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI
 &kp Z           &kp X          &kp C    &kp V        &kp B                                                &kp N        &kp M        &kp COMMA  &kp PERIOD         &kp SLASH
-&kp LC(LS(C))   &kp LC(LS(V))  &mo 6    &lt 1 TAB    &mt LEFT_GUI SPACE  &kp LS(LEFT_GUI)  &kp BACKSPACE  &lt 2 ENTER                                             &kp RS(RIGHT_GUI)
+&kp LC(LS(C))   &kp LC(LS(V))  &mo 6    &lt 1 TAB    &mt LEFT_GUI SPACE  &kp LS(LEFT_GUI)  &kp BACKSPACE  &lt 2 ENTER                                             &kp PRINTSCREEN
             >;
         };
 
@@ -39,7 +39,7 @@
 &kp LG(TAB)  &kp LG(GRAVE)  &kp ESC   &trans     &trans                  &trans     &trans      &kp TILDE       &kp LA(GRAVE)  &kp LA(TAB)
 &kp CAPS     &kp LEFT       &kp PIPE  &kp RIGHT  &trans                  &kp LEFT   &kp DOWN    &kp UP          &kp RIGHT      &kp COLON
 &trans       &trans         &trans    &trans     &trans                  &kp GRAVE  &kp K_BACK  &kp UNDERSCORE  &kp K_FORWARD  &kp BACKSLASH
-&trans       &trans         &trans    &trans     &trans  &trans  &trans  &mkp LCLK                                             &trans
+&trans       &trans         &trans    &trans     &trans  &trans  &trans  &trans                                                &trans
             >;
         };
 
@@ -48,7 +48,7 @@
             bindings = <
 &kp ESC  &kp C_MUTE  &kp C_VOLUME_UP  &trans          &kp C_BRI_UP                            &trans    &trans            &kp PLUS   &kp PAGE_UP        &kp PAGE_DOWN
 &kp F20  &kp HOME    &kp C_VOL_DN     &kp END         &kp C_BRI_DN                            &kp LEFT  &kp SINGLE_QUOTE  &kp MINUS  &kp DOUBLE_QUOTES  &kp RIGHT
-&trans   &trans      &trans           &trans          &kp PRINTSCREEN                         &trans    &trans            &trans     &trans             &trans
+&trans   &trans      &trans           &trans          &trans                                  &trans    &trans            &trans     &trans             &trans
 &trans   &trans      &trans           &kp LEFT_SHIFT  &sk LEFT_CONTROL  &kp LEFT_ALT  &trans  &trans                                                    &trans
             >;
         };
