@@ -27,9 +27,19 @@
             label = "QWRT";
             bindings = <
 &kp Q           &kp W          &kp E    &kp R        &kp T                                                &kp Y        &kp U        &kp I      &kp O              &kp P
-&mt LEFT_ALT A  &mt LSHIFT S   &lt 3 D  &mt LCTRL F  &kp G                                                &kp H        &mt RCTRL J  &lt 4 K    &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI
+&mt LEFT_ALT A  &mt LSHIFT S   &lt 4 D  &mt LCTRL F  &kp G                                                &kp H        &mt RCTRL J  &lt 5 K    &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI
 &kp Z           &kp X          &kp C    &kp V        &kp B                                                &kp N        &kp M        &kp COMMA  &kp PERIOD         &kp SLASH
-&kp LC(LS(C))   &kp LC(LS(V))  &mo 6    &lt 1 TAB    &mt LEFT_GUI SPACE  &kp LS(LEFT_GUI)  &kp BACKSPACE  &lt 2 ENTER                                             &kp PRINTSCREEN
+&kp LC(LS(C))   &kp LC(LS(V))  &mo 6    &lt 2 TAB    &mt LEFT_GUI SPACE  &kp LS(LEFT_GUI)  &kp BACKSPACE  &lt 3 ENTER                                             &kp PRINTSCREEN
+            >;
+        };
+
+        MOUSE {
+            label = "MOUSE";
+            bindings = <
+&kp ESC  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &kp ESC
+&trans   &trans  &trans  &trans  &trans                  &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &trans
+&trans   &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans
+&trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans                                   &trans
             >;
         };
 
@@ -72,16 +82,6 @@
             >;
 
             label = "NUM";
-        };
-
-        MOUSE {
-            label = "MOUSE";
-            bindings = <
-&kp ESC  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &kp ESC
-&trans   &trans  &trans  &trans  &trans                  &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &trans
-&trans   &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans
-&trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans                                   &trans
-            >;
         };
 
         SNIPE {
