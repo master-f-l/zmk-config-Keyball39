@@ -46,20 +46,20 @@
         MAIN {
             label = "MAIN";
             bindings = <
-&kp LG(TAB)  &kp LG(GRAVE)  &trans    &trans         &trans                  &trans     &trans      &kp TILDE       &kp LA(GRAVE)  &kp LA(TAB)
-&kp CAPS     &kp K_BACK     &kp PIPE  &kp K_FORWARD  &trans                  &kp LEFT   &kp DOWN    &kp UP          &kp RIGHT      &kp COLON
-&trans       &trans         &trans    &trans         &trans                  &kp GRAVE  &kp K_BACK  &kp UNDERSCORE  &kp K_FORWARD  &kp BACKSLASH
-&trans       &trans         &trans    &trans         &trans  &trans  &trans  &trans                                                &trans
+&kp LG(TAB)  &kp LG(GRAVE)  &trans    &trans         &trans                  &trans     &trans            &kp TILDE       &kp LA(GRAVE)      &kp LA(TAB)
+&kp CAPS     &kp K_BACK     &kp PIPE  &kp K_FORWARD  &trans                  &kp LEFT   &kp DOWN          &kp UP          &kp RIGHT          &kp COLON
+&trans       &trans         &trans    &trans         &trans                  &kp GRAVE  &kp SINGLE_QUOTE  &kp UNDERSCORE  &kp DOUBLE_QUOTES  &kp BACKSLASH
+&trans       &trans         &trans    &trans         &trans  &trans  &trans  &trans                                                          &trans
             >;
         };
 
         RH {
             label = "RH";
             bindings = <
-&kp ESC  &kp C_MUTE  &kp C_VOLUME_UP  &trans          &kp C_BRI_UP                            &trans    &trans            &kp PLUS   &kp PAGE_UP        &kp PAGE_DOWN
-&kp F20  &kp HOME    &kp C_VOL_DN     &kp END         &kp C_BRI_DN                            &kp LEFT  &kp SINGLE_QUOTE  &kp MINUS  &kp DOUBLE_QUOTES  &kp RIGHT
-&trans   &trans      &trans           &trans          &trans                                  &trans    &trans            &trans     &trans             &trans
-&trans   &trans      &trans           &kp LEFT_SHIFT  &sk LEFT_CONTROL  &kp LEFT_ALT  &trans  &trans                                                    &trans
+&kp ESC  &trans  &trans  &trans          &trans                                  &trans    &trans    &kp PLUS   &kp PAGE_UP  &kp PAGE_DOWN
+&trans   &trans  &trans  &trans          &trans                                  &kp HOME  &kp LEFT  &kp MINUS  &kp RIGHT    &kp END
+&trans   &trans  &trans  &trans          &trans                                  &trans    &trans    &trans     &trans       &trans
+&trans   &trans  &trans  &kp LEFT_SHIFT  &sk LEFT_CONTROL  &kp LEFT_ALT  &trans  &trans                                      &trans
             >;
         };
 
