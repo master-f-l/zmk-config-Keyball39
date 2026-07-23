@@ -87,10 +87,10 @@
         SNIPE {
             label = "SNIPE";
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4      &kp F5                                  &none                 &none          &kp F20          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
-&kp F6   &kp F7   &kp F8  &kp F9      &kp F10                                 &kp CAPS              &kp C_VOL_DN   &kp K_MUTE       &kp C_VOL_UP          &kp DEL
-&kp F11  &kp F12  &none   &none       &none                                   &kp PRINTSCREEN       &kp LC(LS(C))  &kp PRINTSCREEN  &kp LC(LS(V))         &none
-&none    &none    &none   &bt BT_NXT  &bt BT_CLR  &none  &kp LC(PRINTSCREEN)  &kp LA(LEFT_CONTROL)                                                        &bootloader
+&kp F1   &kp F2   &kp F3  &kp F4      &kp F5                                  &none                 &none         &kp F20          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
+&kp F6   &kp F7   &kp F8  &kp F9      &kp F10                                 &kp CAPS              &kp C_VOL_DN  &kp K_MUTE       &kp C_VOL_UP          &kp DEL
+&kp F11  &kp F12  &none   &none       &none                                   &none                 &none         &kp PRINTSCREEN  &none                 &none
+&none    &none    &none   &bt BT_NXT  &bt BT_CLR  &none  &kp LC(PRINTSCREEN)  &kp LA(LEFT_CONTROL)                                                       &bootloader
             >;
         };
     };
