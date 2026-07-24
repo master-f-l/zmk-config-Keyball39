@@ -28,7 +28,7 @@
             bindings = <
 &kp Q           &kp W         &kp E    &kp R        &kp T                                     &kp Y        &kp U        &kp I      &kp O              &kp P
 &mt LEFT_ALT A  &mt LSHIFT S  &lt 3 D  &mt LCTRL F  &kp G                                     &kp H        &mt RCTRL J  &lt 4 K    &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI
-&kp Z           &kp X         &kp C    &kp V        &kp B                                     &kp N        &kp M        &mkp LCLK  &kp COMMA          &kp PERIOD
+&kp Z           &kp X         &kp C    &kp V        &kp B                                     &kp N        &kp M        &mkp LCLK  &kp PERIOD         &kp SLASH
 &none           &none         &none    &lt 1 TAB    &mt LEFT_GUI SPACE  &mo 5  &kp BACKSPACE  &lt 2 ENTER                                             &none
             >;
         };
@@ -36,20 +36,20 @@
         LH {
             label = "LH";
             bindings = <
-&kp LG(TAB)  &kp LG(GRAVE)  &trans     &trans  &trans                        &kp GRAVE  &kp BACKSLASH     &kp TILDE       &kp K_BACK         &kp K_FORWARD
-&trans       &trans         &mkp RCLK  &trans  &trans                        &kp LEFT   &kp DOWN          &kp UP          &kp RIGHT          &kp PIPE
-&trans       &trans         &trans     &trans  &trans                        &kp TILDE  &kp SINGLE_QUOTE  &kp UNDERSCORE  &kp DOUBLE_QUOTES  &kp SLASH
-&trans       &trans         &trans     &trans  &trans  &trans  &kp QUESTION  &kp ESC                                                         &trans
+&kp LG(TAB)  &kp LG(GRAVE)  &trans     &trans  &trans                        &kp INSERT  &kp DELETE        &kp TILDE  &kp K_BACK         &kp K_FORWARD
+&trans       &trans         &mkp RCLK  &trans  &trans                        &kp LEFT    &kp DOWN          &kp UP     &kp RIGHT          &kp PIPE
+&trans       &trans         &trans     &trans  &trans                        &kp GRAVE   &kp SINGLE_QUOTE  &kp COMMA  &kp DOUBLE_QUOTES  &kp BACKSLASH
+&trans       &trans         &trans     &trans  &trans  &trans  &kp QUESTION  &kp ESC                                                     &trans
             >;
         };
 
         RH {
             label = "RH";
             bindings = <
-&kp LA(TAB)  &kp LA(GRAVE)  &trans  &trans  &trans                  &trans    &trans         &kp PLUS   &kp PAGE_UP    &kp PAGE_DOWN
-&trans       &trans         &trans  &trans  &trans                  &kp HOME  &kp LEFT       &kp MINUS  &kp RIGHT      &kp END
-&trans       &trans         &trans  &trans  &trans                  &trans    &kp LC(LS(C))  &none      &kp LC(LS(V))  &trans
-&trans       &trans         &trans  &trans  &trans  &trans  &trans  &trans                                             &trans
+&kp LA(TAB)  &kp LA(GRAVE)  &trans     &trans  &trans                  &trans    &trans         &kp PLUS        &kp PAGE_UP    &kp PAGE_DOWN
+&trans       &trans         &kp EQUAL  &trans  &trans                  &kp HOME  &kp LEFT       &kp MINUS       &kp RIGHT      &kp END
+&trans       &trans         &trans     &trans  &trans                  &trans    &kp LC(LS(C))  &kp UNDERSCORE  &kp LC(LS(V))  &trans
+&trans       &trans         &trans     &trans  &trans  &trans  &trans  &trans                                                  &trans
             >;
         };
 
@@ -65,10 +65,10 @@
 
         NUM {
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4  &kp N5                  &trans  &trans  &trans  &trans  &trans
-&kp N6  &kp N7  &kp N8  &kp N9  &kp N0                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+&kp N1  &kp N2         &kp N3  &kp N4            &kp N5                  &trans  &trans  &trans  &trans  &trans
+&kp N6  &kp N7         &kp N8  &kp N9            &kp N0                  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LESS_THAN  &trans  &kp GREATER_THAN  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans  &trans            &trans  &trans  &trans  &trans                          &trans
             >;
 
             label = "NUM";
